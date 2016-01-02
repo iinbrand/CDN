@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'RSU';
+    src: url('rsu_bold.eot');
+    src: local('RSU'), local('RSU Bold'), url('rsu_bold.eot?#iefix') format('embedded-opentype'),
+         url('rsu_bold.woff2') format('woff2'),
+         url('rsu_bold.woff') format('woff'),
+         url('rsu_bold.ttf') format('truetype'),
+         url('rsu_bold.svg#RSUBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RSU';
+    src: url('rsu_regular.eot');
+    src: local('RSU'), url('rsu_regular.eot?#iefix') format('embedded-opentype'),
+         url('rsu_regular.woff2') format('woff2'),
+         url('rsu_regular.woff') format('woff'),
+         url('rsu_regular.ttf') format('truetype'),
+         url('rsu_regular.svg#RSURegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
